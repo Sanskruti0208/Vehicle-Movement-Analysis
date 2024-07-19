@@ -1,0 +1,5 @@
+vehicle_image_path: C:\Users\sansk\Downloads\new final\vehicle_images\vehicle9.jpg
+vehicle_timestamp: 2024-07-08 10:40:00
+license_plate: MH29R4300
+entry_time: 2024-07-08 10:40:00
+exit_time: 2024-07-08 10:50:00
