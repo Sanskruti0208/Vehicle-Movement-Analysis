@@ -1,5 +1,0 @@
-vehicle_image_path: C:\Users\sansk\Downloads\new final\vehicle_images\vehicle7.jpg
-vehicle_timestamp: 2024-07-08 10:30:00
-license_plate: MH27BE7477
-entry_time: 2024-07-08 10:30:00
-exit_time: 2024-07-08 10:40:00
