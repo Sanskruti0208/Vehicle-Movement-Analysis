@@ -1,0 +1,5 @@
+vehicle_image_path: C:\Users\sansk\Downloads\new final\vehicle_images\vehicle8.jpg
+vehicle_timestamp: 2024-07-08 10:35:00
+license_plate: MH01CP1574
+entry_time: 2024-07-08 10:35:00
+exit_time: 2024-07-08 10:45:00

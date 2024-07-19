@@ -1,0 +1,5 @@
+vehicle_image_path: C:\Users\sansk\Downloads\new final\vehicle_images\vehicle10.jpg
+vehicle_timestamp: 2024-07-08 10:45:00
+license_plate: MH27DL7212
+entry_time: 2024-07-08 10:45:00
+exit_time: 2024-07-08 10:55:00

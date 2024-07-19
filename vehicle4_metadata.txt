@@ -1,0 +1,5 @@
+vehicle_image_path: C:\Users\sansk\Downloads\new final\vehicle_images\vehicle4.jpg
+vehicle_timestamp: 2024-07-08 10:15:00
+license_plate: MH27DE7731
+entry_time: 2024-07-08 10:15:00
+exit_time: 2024-07-08 10:25:00
