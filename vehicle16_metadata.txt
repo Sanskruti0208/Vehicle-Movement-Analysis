@@ -1,5 +1,0 @@
-vehicle_image_path: C:\Users\sansk\Downloads\new final\vehicle_images\vehicle16.jpg
-vehicle_timestamp: 2024-07-08 11:15:00
-license_plate: MH14JU4530
-entry_time: 2024-07-08 11:15:00
-exit_time: 2024-07-08 11:25:00
