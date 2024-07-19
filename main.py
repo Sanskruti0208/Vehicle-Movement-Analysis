@@ -8,20 +8,19 @@ import imutils
 
 # Function to correct license plate text if needed
 def correct_license_plate(text):
-    # Implement your logic here for text correction if required
-    # Example: Convert to uppercase and remove non-alphanumeric characters
+    
     corrected_text = text.upper().replace(' ', '').replace('-', '')
     return corrected_text
 
 def main():
     # Load Haar cascade for license plate detection
-    haar_cascade_path = 'C:\\Users\\user\\Desktop\\Vehicle-Movement-Analysis-main\\Vehicle-Movement-Analysis-main\\haarcascade_russian_plate_number.xml'
+    haar_cascade_path = 'C:/Users/sansk/Downloads/final/Vehicle-Movement-Analysis/haarcascade_russian_plate_number.xml'
     plate_cascade = cv2.CascadeClassifier(haar_cascade_path)
 
     # Load YOLOv4 model
-    yolo_config_path = 'C:\\Users\\user\\Desktop\\Vehicle-Movement-Analysis-main\\Vehicle-Movement-Analysis-main\\yolov4.cfg'
-    yolo_weights_path = 'C:\\Users\\user\\Desktop\\Vehicle-Movement-Analysis-main\\Vehicle-Movement-Analysis-main\\yolov4.weights'
-    model_classes = 'C:\\Users\\user\\Desktop\\Vehicle-Movement-Analysis-main\\Vehicle-Movement-Analysis-main\\cfg\\coco.names'
+    yolo_config_path = 'C:/Users/sansk/Downloads/final/yolov4/yolov4.cfg'
+    yolo_weights_path = 'C:/Users/sansk/Downloads/final/yolov4/yolov4.weights'
+    model_classes = 'C:/Users/sansk/Downloads/final/yolov4/coco.names'
     net = cv2.dnn.readNetFromDarknet(yolo_config_path, yolo_weights_path)
     
     if net.empty():
@@ -42,7 +41,7 @@ def main():
     img_display = ax.imshow(np.zeros((480, 640, 3), dtype=np.uint8))
 
     # Ensure the results directory exists
-    results_dir = 'C:\\Users\\user\\Desktop\\Vehicle-Movement-Analysis-main\\Vehicle-Movement-Analysis-main\\Result'
+    results_dir = 'C:/Users/sansk/Downloads/final/Vehicle-Movement-Analysis/results'
     os.makedirs(results_dir, exist_ok=True)
 
     detected_plates = []  # List to track detected license plates
